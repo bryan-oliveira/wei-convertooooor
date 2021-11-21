@@ -1,0 +1,74 @@
+/*
+TODO: convert project to scss
+
+$arbitrum-blue: #29a0f1;
+$arbitrum-dark-blue: #1f2937;
+*/
+
+.content {
+  font-family: system-ui;
+  background-color: #F2F2F2;
+}
+.logo-wrapper {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo-wrapper span {
+  font-size: 2em;
+  color: #FFF;
+}
+.logo-wrapper .logo {
+  width: 100px;
+  margin: 0.5em;
+}
+.wei-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+.wei-buttons {
+  margin: 1em 0em;
+}
+.wei-buttons button {
+  padding: 0.5em 1em;
+  width: 100px;
+  background-color: #29a0f1;
+  border: 0;
+  border-radius: 4px;
+  color: #FFF;
+}
+.wei-buttons button:hover {
+  cursor: pointer;
+  background-color: #29a0f199;
+}
+.wei-inputs-wrapper div {
+  margin-bottom: 0.5em;
+}
+.wei-input {
+  display: flex;
+}
+.wei-input label {
+  width: 107px;
+  margin: auto 0px;
+}
+.wei-input input {
+  width: 300px;
+}
+select {
+  margin-left: 0.5em;
+}
+
+/* Utils */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+input {
+  padding: 6px;
+  margin-right: 1em;
+}
